@@ -9,8 +9,8 @@ song2 = "";
  }
  function setup() {
     canvas = createCanvas(600, 500);
-    canvas.center;
+    canvas.center();
 
     video = createCapture(VIDEO);
-    video.hide;
+    video.hide();
  }
